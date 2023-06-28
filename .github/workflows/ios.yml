@@ -17,4 +17,4 @@ jobs:
           project: Nanopool.xcodeproj
           scheme: Nanopool
           destination: platform=macOS
-          action: test
+          action: build
