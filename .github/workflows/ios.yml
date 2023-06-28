@@ -16,5 +16,5 @@ jobs:
         with:
           project: Nanopool.xcodeproj
           scheme: Nanopool
-          destination: 'iOS Simulator,name=iPhone 14 Pro Max,OS=latest'
+          destination: "'platform=iOS Simulator,name=iPhone 14 Pro Max,OS=latest'"
           action: build
