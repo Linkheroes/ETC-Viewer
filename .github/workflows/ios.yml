@@ -16,5 +16,5 @@ jobs:
         with:
           project: Nanopool.xcodeproj
           scheme: Nanopool
-          destination: platform=iOS
+          destination: platform='iPhone 14 Pro'
           action: build
