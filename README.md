@@ -15,3 +15,7 @@ Here is the address of an ETC wallet
 
 ## Preview
 ![test](https://github.com/Linkheroes/ETC-Viewver/blob/main/assets/ETC_Viewer_preview.png)
+
+The application has been translated into French from the official English version.
+
+This project was carried out to learn how to use an external API.
