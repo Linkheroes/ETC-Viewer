@@ -12,9 +12,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: sersoft-gmbh/xcodebuild-action@v2
-        with:
-          project: Nanopool.xcodeproj
-          scheme: Nanopool
-          destination: platform='iPhone 14 Pro'
-          action: build
+      - name: List Simulators
+        run: xcrun instruments -s
+      - name: Run tests
+        run: xcodebuild test -workspace "Nanopool.xcworkspace" -scheme "Nanopool" -destination "platform=iOS Simulator,name=iPhone 14 Pro,OS=latest"
