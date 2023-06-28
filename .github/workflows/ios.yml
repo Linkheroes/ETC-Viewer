@@ -12,6 +12,8 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Xcode version
+        run: sudo xcode-select -switch /Applications/Xcode_14.3.1.app
       - name: List Simulators
         run: xcrun instruments -s
       - name: Run tests
