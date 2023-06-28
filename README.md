@@ -1,4 +1,4 @@
-# ETC-Viewver
+# ETC-Viewer
 
 This application lets you view your mining statistics on the Ethereum Classic token using your Nanopool account.
 
