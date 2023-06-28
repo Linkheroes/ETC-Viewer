@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC14271126CC21B200EB0946 /* Translation.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC14271326CC21B200EB0946 /* Translation.strings */; };
+		AC154F5926CAB7C30094F7D3 /* NanopoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F5826CAB7C30094F7D3 /* NanopoolApp.swift */; };
+		AC154F5B26CAB7C30094F7D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F5A26CAB7C30094F7D3 /* ContentView.swift */; };
+		AC154F5D26CAB7C40094F7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC154F5C26CAB7C40094F7D3 /* Assets.xcassets */; };
+		AC154F6026CAB7C40094F7D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC154F5F26CAB7C40094F7D3 /* Preview Assets.xcassets */; };
+		AC154F6826CAB7DC0094F7D3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F6726CAB7DC0094F7D3 /* HomeView.swift */; };
+		AC154F6C26CABCCD0094F7D3 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F6B26CABCCD0094F7D3 /* ProgressBar.swift */; };
+		AC154F6F26CAC4D50094F7D3 /* WorkersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F6E26CAC4D50094F7D3 /* WorkersView.swift */; };
+		AC154F7126CAC9F40094F7D3 /* WorkersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F7026CAC9F40094F7D3 /* WorkersCell.swift */; };
+		AC154F7326CACC010094F7D3 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F7226CACC010094F7D3 /* WalletView.swift */; };
+		AC154F7526CAD8C10094F7D3 /* account.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F7426CAD8C10094F7D3 /* account.swift */; };
+		AC154F7926CBB4190094F7D3 /* PayoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F7826CBB4190094F7D3 /* PayoutsView.swift */; };
+		AC154F7B26CBB4B70094F7D3 /* PayoutsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F7A26CBB4B70094F7D3 /* PayoutsCell.swift */; };
+		AC154F7D26CBB9080094F7D3 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC154F7C26CBB9080094F7D3 /* SettingsCell.swift */; };
+		ACCA5A9726CBEC2D00DC1CD3 /* TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA5A9626CBEC2D00DC1CD3 /* TimeAgo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC2BAB0426CDC2DD005E41A2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC14271226CC21B200EB0946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Translation.strings; sourceTree = "<group>"; };
+		AC14271426CC21B300EB0946 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Translation.strings; sourceTree = "<group>"; };
+		AC154F5526CAB7C30094F7D3 /* Nanopool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nanopool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC154F5826CAB7C30094F7D3 /* NanopoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanopoolApp.swift; sourceTree = "<group>"; };
+		AC154F5A26CAB7C30094F7D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC154F5C26CAB7C40094F7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC154F5F26CAB7C40094F7D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC154F6726CAB7DC0094F7D3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC154F6926CAB9F60094F7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC154F6B26CABCCD0094F7D3 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		AC154F6E26CAC4D50094F7D3 /* WorkersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkersView.swift; sourceTree = "<group>"; };
+		AC154F7026CAC9F40094F7D3 /* WorkersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkersCell.swift; sourceTree = "<group>"; };
+		AC154F7226CACC010094F7D3 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		AC154F7426CAD8C10094F7D3 /* account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = account.swift; sourceTree = "<group>"; };
+		AC154F7826CBB4190094F7D3 /* PayoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutsView.swift; sourceTree = "<group>"; };
+		AC154F7A26CBB4B70094F7D3 /* PayoutsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutsCell.swift; sourceTree = "<group>"; };
+		AC154F7C26CBB9080094F7D3 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		AC71F68C26CE7455007D3509 /* Nanopool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nanopool.entitlements; sourceTree = "<group>"; };
+		ACCA5A9626CBEC2D00DC1CD3 /* TimeAgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAgo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC154F5226CAB7C30094F7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC14270E26CC218500EB0946 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				AC14271326CC21B200EB0946 /* Translation.strings */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		AC154F4C26CAB7C30094F7D3 = {
+			isa = PBXGroup;
+			children = (
+				AC154F5726CAB7C30094F7D3 /* Nanopool */,
+				AC154F5626CAB7C30094F7D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC154F5626CAB7C30094F7D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC154F5526CAB7C30094F7D3 /* Nanopool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC154F5726CAB7C30094F7D3 /* Nanopool */ = {
+			isa = PBXGroup;
+			children = (
+				AC71F68C26CE7455007D3509 /* Nanopool.entitlements */,
+				AC14270E26CC218500EB0946 /* Translation */,
+				AC154F6D26CAC4210094F7D3 /* Model */,
+				AC154F6626CAB7D10094F7D3 /* View */,
+				AC154F6A26CABCBB0094F7D3 /* Assets */,
+				AC154F6926CAB9F60094F7D3 /* Info.plist */,
+				AC154F5826CAB7C30094F7D3 /* NanopoolApp.swift */,
+				AC154F5A26CAB7C30094F7D3 /* ContentView.swift */,
+				AC154F5C26CAB7C40094F7D3 /* Assets.xcassets */,
+				AC154F5E26CAB7C40094F7D3 /* Preview Content */,
+			);
+			path = Nanopool;
+			sourceTree = "<group>";
+		};
+		AC154F5E26CAB7C40094F7D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC154F5F26CAB7C40094F7D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC154F6626CAB7D10094F7D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC154F6726CAB7DC0094F7D3 /* HomeView.swift */,
+				AC154F6E26CAC4D50094F7D3 /* WorkersView.swift */,
+				AC154F7226CACC010094F7D3 /* WalletView.swift */,
+				AC154F7826CBB4190094F7D3 /* PayoutsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC154F6A26CABCBB0094F7D3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AC154F6B26CABCCD0094F7D3 /* ProgressBar.swift */,
+				AC154F7026CAC9F40094F7D3 /* WorkersCell.swift */,
+				AC154F7A26CBB4B70094F7D3 /* PayoutsCell.swift */,
+				AC154F7C26CBB9080094F7D3 /* SettingsCell.swift */,
+				ACCA5A9626CBEC2D00DC1CD3 /* TimeAgo.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AC154F6D26CAC4210094F7D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC154F7426CAD8C10094F7D3 /* account.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC154F5426CAB7C30094F7D3 /* Nanopool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC154F6326CAB7C40094F7D3 /* Build configuration list for PBXNativeTarget "Nanopool" */;
+			buildPhases = (
+				AC154F5126CAB7C30094F7D3 /* Sources */,
+				AC154F5226CAB7C30094F7D3 /* Frameworks */,
+				AC154F5326CAB7C30094F7D3 /* Resources */,
+				AC2BAB0426CDC2DD005E41A2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nanopool;
+			productName = Nanopool;
+			productReference = AC154F5526CAB7C30094F7D3 /* Nanopool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC154F4D26CAB7C30094F7D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AC154F5426CAB7C30094F7D3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = AC154F5026CAB7C30094F7D3 /* Build configuration list for PBXProject "Nanopool" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = AC154F4C26CAB7C30094F7D3;
+			productRefGroup = AC154F5626CAB7C30094F7D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC154F5426CAB7C30094F7D3 /* Nanopool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC154F5326CAB7C30094F7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC14271126CC21B200EB0946 /* Translation.strings in Resources */,
+				AC154F6026CAB7C40094F7D3 /* Preview Assets.xcassets in Resources */,
+				AC154F5D26CAB7C40094F7D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC154F5126CAB7C30094F7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC154F6826CAB7DC0094F7D3 /* HomeView.swift in Sources */,
+				AC154F5B26CAB7C30094F7D3 /* ContentView.swift in Sources */,
+				ACCA5A9726CBEC2D00DC1CD3 /* TimeAgo.swift in Sources */,
+				AC154F6C26CABCCD0094F7D3 /* ProgressBar.swift in Sources */,
+				AC154F7326CACC010094F7D3 /* WalletView.swift in Sources */,
+				AC154F7926CBB4190094F7D3 /* PayoutsView.swift in Sources */,
+				AC154F5926CAB7C30094F7D3 /* NanopoolApp.swift in Sources */,
+				AC154F7526CAD8C10094F7D3 /* account.swift in Sources */,
+				AC154F7B26CBB4B70094F7D3 /* PayoutsCell.swift in Sources */,
+				AC154F6F26CAC4D50094F7D3 /* WorkersView.swift in Sources */,
+				AC154F7126CAC9F40094F7D3 /* WorkersCell.swift in Sources */,
+				AC154F7D26CBB9080094F7D3 /* SettingsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC14271326CC21B200EB0946 /* Translation.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC14271226CC21B200EB0946 /* en */,
+				AC14271426CC21B300EB0946 /* fr */,
+			);
+			name = Translation.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC154F6126CAB7C40094F7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC154F6226CAB7C40094F7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC154F6426CAB7C40094F7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Nanopool/Nanopool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nanopool/Preview Content\"";
+				DEVELOPMENT_TEAM = CGH547GYT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nanopool/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ETC Pool";
+				INFOPLIST_KEY_CFBundleExecutable = Nanopool;
+				INFOPLIST_KEY_CFBundleName = Nanopool;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.linkheroes.etcviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC154F6526CAB7C40094F7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Nanopool/Nanopool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nanopool/Preview Content\"";
+				DEVELOPMENT_TEAM = CGH547GYT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nanopool/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ETC Pool";
+				INFOPLIST_KEY_CFBundleExecutable = Nanopool;
+				INFOPLIST_KEY_CFBundleName = Nanopool;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.linkheroes.etcviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC154F5026CAB7C30094F7D3 /* Build configuration list for PBXProject "Nanopool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC154F6126CAB7C40094F7D3 /* Debug */,
+				AC154F6226CAB7C40094F7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC154F6326CAB7C40094F7D3 /* Build configuration list for PBXNativeTarget "Nanopool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC154F6426CAB7C40094F7D3 /* Debug */,
+				AC154F6526CAB7C40094F7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC154F4D26CAB7C30094F7D3 /* Project object */;
+}
