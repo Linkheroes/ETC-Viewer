@@ -16,5 +16,5 @@ jobs:
         with:
           project: Nanopool.xcodeproj
           scheme: Nanopool
-          destination: platform=IOS
+          destination: platform=ios
           action: build
