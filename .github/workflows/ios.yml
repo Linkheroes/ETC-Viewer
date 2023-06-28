@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run tests
-        run: xcodebuild test -workspace "Nanopool.xcworkspace" -scheme "Nanopool" -destination "platform=iOS Simulator,name=iPhone 14 Pro,OS=latest"
+        run: xcodebuild test -workspace "Nanopool.xcodeproj" -scheme "Nanopool" -destination "platform=iOS Simulator,name=iPhone 14 Pro,OS=latest"
