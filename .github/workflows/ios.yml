@@ -12,9 +12,5 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Xcode version
-        run: sudo xcode-select -switch /Applications/Xcode.app
-      - name: List Simulators
-        run: xcrun instruments -s
       - name: Run tests
         run: xcodebuild test -workspace "Nanopool.xcworkspace" -scheme "Nanopool" -destination "platform=iOS Simulator,name=iPhone 14 Pro,OS=latest"
