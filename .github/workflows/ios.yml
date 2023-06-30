@@ -12,5 +12,5 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run tests
+      - name: Check project build
         run: xcodebuild clean build -project 'Nanopool.xcodeproj' -scheme 'Nanopool' -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=latest'
