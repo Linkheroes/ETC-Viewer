@@ -13,6 +13,10 @@ Here is the address of an ETC wallet
 0x2684ad1932db2cb11011b5ee62b6dc5a6db5feea
 ```
 
+## Languages
+
+You can change the native language of the app in your system settings
+
 ## Preview
 ![test](https://github.com/Linkheroes/ETC-Viewver/blob/main/assets/ETC_Viewer_preview.png)
 
